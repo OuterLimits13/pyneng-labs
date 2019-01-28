@@ -1,0 +1,9 @@
+routers:
+- device_type: cisco_ios
+  ip: 10.172.100.2
+  username: keyu
+  password: 123
+- device_type: cisco_ios
+  ip: 10.172.100.101
+  username: keyu
+  password: 123

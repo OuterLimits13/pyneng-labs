@@ -1,0 +1,2 @@
+no alias exec FROMFILE_1  sh ip int br
+no alias exec FROMFILE_2  sh ip int br
