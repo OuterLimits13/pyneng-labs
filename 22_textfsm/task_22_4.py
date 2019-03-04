@@ -1,3 +1,4 @@
+#!/usr/bin/python3.6
 # -*- coding: utf-8 -*-
 '''
 Задание 22.4
@@ -21,24 +22,46 @@
 
 Проверить работу функции на примере вывода команды sh ip int br.
 
-Пример из раздела:
 '''
 
+import sys
+sys.path.append('/home/usr/new/pyneng/lib/python3.6/site-packages')
 import clitable
+import os
 
-output_sh_ip_route_ospf = open('output/sh_ip_route_ospf.txt').read()
+from pprint import pprint
 
-cli_table = clitable.CliTable('index', 'templates')
-attributes = {'Command': 'show ip route ospf', 'Vendor': 'Cisco'}
 
-cli_table.ParseCmd(output_sh_ip_route_ospf, attributes)
+def parse_command_dynamic(output, attributes, index_filename='index', templates_folder='templates'):
+	if os.path.isfile(output):
+		output = open(output).read()
 
-print('CLI Table output:\n', cli_table)
-print('Formatted Table:\n', cli_table.FormattedTable())
+	cli_table = clitable.CliTable(index_filename, templates_folder)
+	cli_table.ParseCmd(output, attributes)
 
-data_rows = [list(row) for row in cli_table]
-header = list(cli_table.header)
+	result = []
+	for row in cli_table:
+		row = list(row)
+		dict_row = dict(zip(cli_table.header, row))
+		result.append(dict_row)
+		
+	return result
 
-print(header)
-for row in data_rows:
-    print(row)
+
+
+if __name__ == '__main__':
+	attributes = {'Command': 'show ip int brief', 'Vendor': 'cisco_ios'}
+	res = parse_command_dynamic('output/sh_ip_int_br.txt', attributes)
+	pprint(res)
+
+
+
+
+
+
+
+
+
+
+
+

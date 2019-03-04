@@ -1,3 +1,4 @@
+#!/usr/bin/python3.6
 # -*- coding: utf-8 -*-
 '''
 Задание 21.3
@@ -35,3 +36,33 @@
 
 
 '''
+
+
+from task_21_1 import generate_cfg_from_template
+
+
+if __name__ == '__main__':
+	print(generate_cfg_from_template('templates/cisco_ospf.txt', 'data_files/ospf3.yml'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

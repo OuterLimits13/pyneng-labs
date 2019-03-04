@@ -1,0 +1,291 @@
+{
+    "EDSP0": {
+        "ipv6": []
+    },
+    "FastEthernet0/0": {
+        "bandwidth": 100000,
+        "description": null,
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "192.168.152.26",
+                "subnet": "29"
+            },
+            {
+                "address": "10.172.255.214",
+                "subnet": "27"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "0025.845d.3dc0",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1": {
+        "bandwidth": 100000,
+        "description": "### UPLink Cisco 2960 ###",
+        "duplex": null,
+        "ipv4": [],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1.100": {
+        "bandwidth": 100000,
+        "description": "### Management ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.100.101",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1.101": {
+        "bandwidth": 100000,
+        "description": "### TEMP for Manage C3550 ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.100.181",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1.142": {
+        "bandwidth": 100000,
+        "description": "### Nimbra ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.98.241",
+                "subnet": "29"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1.30": {
+        "bandwidth": 100000,
+        "description": "### Nevion SW ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.100.165",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1.305": {
+        "bandwidth": 100000,
+        "description": "### WAN MTS Internet ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "185.39.206.14",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1.31": {
+        "bandwidth": 100000,
+        "description": "### SDK ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.60.1",
+                "subnet": "27"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1.32": {
+        "bandwidth": 100000,
+        "description": "### Users ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.60.65",
+                "subnet": "26"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1.33": {
+        "bandwidth": 100000,
+        "description": "### Voice ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.60.129",
+                "subnet": "26"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1.34": {
+        "bandwidth": 100000,
+        "description": "### VKS ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.60.33",
+                "subnet": "27"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1.35": {
+        "bandwidth": 100000,
+        "description": "### Wi-Fi ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.60.193",
+                "subnet": "26"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "FastEthernet0/1.99": {
+        "bandwidth": 100000,
+        "description": "### Management ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.99.13",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "0025.845d.3dc1",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "MV96340 Ethernet"
+    },
+    "Loopback0": {
+        "bandwidth": 8000000,
+        "description": null,
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.0.1.3",
+                "subnet": "32"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 1514,
+        "operstatus": "up",
+        "type": null
+    },
+    "NVI0": {
+        "bandwidth": 56,
+        "description": null,
+        "duplex": null,
+        "ipv4": [],
+        "lineprotocol": "up ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 1514,
+        "operstatus": "up",
+        "type": null
+    },
+    "Tunnel2": {
+        "bandwidth": 4000,
+        "description": "### HantyMans - Tyumen ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.2.10",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17886,
+        "operstatus": "up",
+        "type": null
+    },
+    "Tunnel206": {
+        "bandwidth": 256,
+        "description": "### HM Gagarino 170-HM Sadovaya 15 ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.2.21",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17886,
+        "operstatus": "up",
+        "type": null
+    },
+    "VoIP-Null0": {
+        "ipv6": []
+    }
+}

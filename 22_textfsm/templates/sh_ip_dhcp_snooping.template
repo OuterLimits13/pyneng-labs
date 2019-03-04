@@ -1,0 +1,7 @@
+Value MAC (\S+)
+Value IP (\S+)
+Value VLAN (\d+)
+Value INTERFACE (\S+)
+
+Start
+  ^${MAC}\s+${IP}\s+(\S+\s+){2}${VLAN}\s+${INTERFACE} -> Record

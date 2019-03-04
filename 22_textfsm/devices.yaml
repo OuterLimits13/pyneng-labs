@@ -1,16 +1,13 @@
 routers:
 - device_type: cisco_ios
-  ip: 192.168.100.1
-  username: cisco
-  password: cisco
-  secret: cisco
+  ip: 10.172.100.2
+  username: keyu
+  password: ab
 - device_type: cisco_ios
-  ip: 192.168.100.2
-  username: cisco
-  password: cisco
-  secret: cisco
+  ip: 10.172.100.12
+  username: keyu
+  password: ab
 - device_type: cisco_ios
-  ip: 192.168.100.3
-  username: cisco
-  password: cisco
-  secret: cisco
+  ip: 10.172.100.101
+  username: keyu
+  password: pas

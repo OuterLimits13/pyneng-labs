@@ -1,0 +1,22 @@
+---
+
+- name: Gath Facts and ipv6 int br
+  hosts: cisco-routers
+  gather_facts: false
+
+  tasks:
+
+    - name: Gather facts
+      ios_facts:
+        gather_subset:
+          - interfaces
+
+    - name: Run sh ipv6 int br
+      ios_command:
+        commands: show ipv6 int br
+      register: ipv6_int_br_result
+
+    - name: Debug sh ipv6 int br
+      debug: var=ipv6_int_br_result.stdout_lines
+      when: ansible_net_all_ipv6_addresses
+      

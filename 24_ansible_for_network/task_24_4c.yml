@@ -1,0 +1,34 @@
+---
+
+- name: Configure ACL and set it on intf
+  hosts: 10.172.100.2
+  gather_facts: false
+#  connection: local
+
+  tasks:
+
+    - name: Config ACL
+      ios_config:
+        before:
+          - int {{ outside_intf }}
+          - no ip access-group INET-to-LAN in
+          - no ip access-list ex INET-to-LAN
+        parents:
+          - ip access-l ex INET-to-LAN
+        lines:
+          - permit tcp 10.0.1.0  0.0.0.255 any eq www
+          - permit tcp 10.0.1.0  0.0.0.255 any eq 22
+          - permit icmp any any
+#        provider: "{{ cli }}"
+      register: acl_result
+
+    - name: Set ACL on intf
+      ios_config:
+        parents:
+          - int {{ outside_intf }}
+        lines:
+          - ip access-group INET-to-LAN in
+          
+    - name: Debug ACL results
+      debug: var=acl_result.updates
+      when: acl_result.changed

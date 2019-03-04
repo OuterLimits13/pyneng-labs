@@ -1,9 +1,9 @@
 ---
 
 - name: Run cfg commands on routers
-  hosts: 10.172.100.2
+  hosts: cisco-routers
   gather_facts: false
-#  connection: local
+  connection: local
 
   tasks:
 
@@ -11,5 +11,5 @@
       ios_config:
         lines:
           - logging console debugging
-#        provider: "{{ cli }}"
-        defaults: True
+        provider: "{{ cli }}"
+

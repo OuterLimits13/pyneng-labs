@@ -36,8 +36,8 @@ def send_show_command(device, command):
 	except (netmiko.ssh_exception.AuthenticationException, netmiko.ssh_exception.NetMikoTimeoutException) as e:
 		print('Error occurred: ', e)
 	
-	
 	return command_result
+
 
 
 if __name__ == '__main__':
@@ -45,7 +45,6 @@ if __name__ == '__main__':
 	with open('devices.yaml') as f:
 		devices = yaml.load(f)
 
-	#pprint(devices)
 	for device in devices['routers']:
 		res = send_show_command(device, command)
 		pprint(res)

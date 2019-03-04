@@ -1,0 +1,890 @@
+{
+    "Embedded-Service-Engine0/0": {
+        "bandwidth": 10000,
+        "description": null,
+        "duplex": null,
+        "ipv4": [],
+        "lineprotocol": "down ",
+        "macaddress": "0000.0000.0000",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "Embedded Service Engine"
+    },
+    "GigabitEthernet0/0": {
+        "bandwidth": 100000,
+        "description": null,
+        "duplex": "Full",
+        "ipv4": [],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c0",
+        "mediatype": "RJ45",
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/1": {
+        "bandwidth": 1000000,
+        "description": null,
+        "duplex": "Full",
+        "ipv4": [],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c1",
+        "mediatype": "RJ45",
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2": {
+        "bandwidth": 1000000,
+        "description": "# Link Cisco 2960G #",
+        "duplex": "Full",
+        "ipv4": [],
+        "lineprotocol": "up ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": "RJ45",
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.10": {
+        "bandwidth": 1000000,
+        "description": "### iLo ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.10.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.100": {
+        "bandwidth": 1000000,
+        "description": "### Management ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.100.2",
+                "subnet": "26"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "up",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.11": {
+        "bandwidth": 1000000,
+        "description": null,
+        "duplex": null,
+        "ipv4": [],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.12": {
+        "bandwidth": 1000000,
+        "description": null,
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.72.65.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.13": {
+        "bandwidth": 1000000,
+        "description": "### Radio Umor_FM ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "91.245.210.153",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.14": {
+        "bandwidth": 1000000,
+        "description": "### ML Drozdinskiy ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "91.245.210.141",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.140": {
+        "bandwidth": 1000000,
+        "description": "### vlan to HP MSR3012 ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.1.2",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.15": {
+        "bandwidth": 1000000,
+        "description": "### Voice ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.72.68.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.16": {
+        "bandwidth": 1000000,
+        "description": "### Guest Vlan 128K ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.72.74.1",
+                "subnet": "26"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.17": {
+        "bandwidth": 1000000,
+        "description": "### Wi-Fi ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.72.70.1",
+                "subnet": "25"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.18": {
+        "bandwidth": 1000000,
+        "description": "# VSAT #",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.72.1.254",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.2": {
+        "bandwidth": 1000000,
+        "description": "### Old Servers Vlan (Temp) ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.0.3.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.27": {
+        "bandwidth": 1000000,
+        "description": "### Polycom ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.72.66.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.3": {
+        "bandwidth": 1000000,
+        "description": "### Users Vlan ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.72.69.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.32": {
+        "bandwidth": 1000000,
+        "description": "### Users Vlan ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.32.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.33": {
+        "bandwidth": 1000000,
+        "description": "### Voice ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.33.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.34": {
+        "bandwidth": 1000000,
+        "description": "### Polycom ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.34.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.35": {
+        "bandwidth": 1000000,
+        "description": "### Wi-Fi ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.35.1",
+                "subnet": "25"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.36": {
+        "bandwidth": 1000000,
+        "description": "### Guest Vlan 1024K ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.36.1",
+                "subnet": "26"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.4": {
+        "bandwidth": 1000000,
+        "description": null,
+        "duplex": null,
+        "ipv4": [],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.5": {
+        "bandwidth": 1000000,
+        "description": "# Managment #",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.1.2",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.503": {
+        "bandwidth": 1000000,
+        "description": "# Uralmicro RT #",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "91.245.210.250",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.504": {
+        "bandwidth": 1000000,
+        "description": "### Ural Micro SIP ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.5.2",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.6": {
+        "bandwidth": 1000000,
+        "description": null,
+        "duplex": null,
+        "ipv4": [],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.7": {
+        "bandwidth": 1000000,
+        "description": null,
+        "duplex": null,
+        "ipv4": [],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.8": {
+        "bandwidth": 1000000,
+        "description": "### Servers ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.8.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "GigabitEthernet0/2.9": {
+        "bandwidth": 1000000,
+        "description": "### Old Servers Vlan (Temp) ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.9.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": "2894.0f14.58c2",
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "administratively down",
+        "type": "CN Gigabit Ethernet"
+    },
+    "Loopback0": {
+        "bandwidth": 8000000,
+        "description": null,
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.0.1.1",
+                "subnet": "32"
+            }
+        ],
+        "lineprotocol": "up ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 1514,
+        "operstatus": "up",
+        "type": null
+    },
+    "NVI0": {
+        "bandwidth": 56,
+        "description": null,
+        "duplex": null,
+        "ipv4": [],
+        "lineprotocol": "up ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 1514,
+        "operstatus": "up",
+        "type": null
+    },
+    "Tunnel1": {
+        "bandwidth": 4000,
+        "description": "# Tyumen-RTS Gagarino #",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.2.5",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel10": {
+        "bandwidth": 2000,
+        "description": "### Tymen AUP - Ugorsk ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.2.57",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel102": {
+        "bandwidth": 512,
+        "description": "# Tyumen - Shabanovo #",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.3.1",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel103": {
+        "bandwidth": 512,
+        "description": "### HM Sadovaya 15-Tyumen ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.3.21",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel106": {
+        "bandwidth": 2000,
+        "description": "### BelyiYAR - Tyumen ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.3.5",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel109": {
+        "bandwidth": 512,
+        "description": "### Tyumen - Berozovo ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.3.25",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel111": {
+        "bandwidth": 512,
+        "description": "### Tyumen - Nyagan ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.3.13",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel112": {
+        "bandwidth": 512,
+        "description": "### Tuymen - Beloyarskiy ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.3.17",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel113": {
+        "bandwidth": 512,
+        "description": "### Tyumen - Mrechinsk ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.3.29",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel114": {
+        "bandwidth": 512,
+        "description": "### Tyumen - Kogalym ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.3.37",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel13": {
+        "bandwidth": 2000,
+        "description": "### Tyumen_AUP - Salehard ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.2.73",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel14": {
+        "bandwidth": 2000,
+        "description": "### Tyumen_AUP - Grand ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.3.33",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel2": {
+        "bandwidth": 4000,
+        "description": "# Tyumen-RTS HantyMans#",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.2.9",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel3": {
+        "bandwidth": 1000,
+        "description": "# Tyumen AUP-Tyumen RTS Irbitskaya #",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.2.13",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel5": {
+        "bandwidth": 4000,
+        "description": "# Tyumen AUP-Surgut st.30 let pobedy#",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.2.25",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel6": {
+        "bandwidth": 1000,
+        "description": "# Tyumen - Tobolsk #",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.2.41",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel7": {
+        "bandwidth": 2000,
+        "description": "# Tyumen-Nizhnevartovsk #",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.2.45",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel8": {
+        "bandwidth": 2048,
+        "description": "### Tyumen - Tynkul ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.2.89",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Tunnel9": {
+        "bandwidth": 1000,
+        "description": "### Tyumen - Uray ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "172.16.2.81",
+                "subnet": "30"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 17940,
+        "operstatus": "administratively down",
+        "type": null
+    },
+    "Virtual-Access1": {
+        "bandwidth": 100000,
+        "description": null,
+        "duplex": null,
+        "ipv4": [],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "down",
+        "type": null
+    },
+    "Virtual-Template1": {
+        "bandwidth": 100000,
+        "description": "# PPTP #",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.0.2.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "down",
+        "type": null
+    },
+    "Virtual-Template2": {
+        "bandwidth": 100000,
+        "description": "### PPTP ###",
+        "duplex": null,
+        "ipv4": [
+            {
+                "address": "10.172.4.1",
+                "subnet": "24"
+            }
+        ],
+        "lineprotocol": "down ",
+        "macaddress": null,
+        "mediatype": null,
+        "mtu": 1500,
+        "operstatus": "down",
+        "type": null
+    },
+    "VoIP-Null0": {
+        "ipv6": []
+    }
+}

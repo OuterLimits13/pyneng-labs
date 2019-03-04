@@ -1,3 +1,4 @@
+#!/usr/bin/python3.6
 # -*- coding: utf-8 -*-
 '''
 Задание 22.1
@@ -18,15 +19,38 @@
 '''
 
 import sys
+sys.path.append('/home/usr/new/pyneng/lib/python3.6/site-packages')
+
 import textfsm
 from tabulate import tabulate
 
-template = sys.argv[1]
-output_file = sys.argv[2]
+def parse_output(template, output):
+	result = []
+	with open(template) as t, open(output) as output:
+		re_table = textfsm.TextFSM(t)
+		result.append(re_table.header)
+		result.extend( re_table.ParseText(output.read()) )
+		
+	return result
 
-with open(template) as f, open(output_file) as output:
-    re_table = textfsm.TextFSM(f)
-    header = re_table.header
-    result = re_table.ParseText(output.read())
-    print(result)
-    print(tabulate(result, headers=header))
+
+
+
+if __name__ == "__main__":
+	res = parse_output('templates/sh_ip_dhcp_snooping.template','output/sh_ip_dhcp_snooping.txt')
+	print(res)
+	print('= ' * 50)
+	print(tabulate(res, headers='firstrow'))
+	
+
+	
+
+
+
+
+
+
+
+
+
+

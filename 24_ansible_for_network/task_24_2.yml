@@ -1,0 +1,21 @@
+---
+
+- name: Gather facts
+  hosts: cisco-routers
+  gather_facts: false
+
+  tasks:
+
+    - name: Gather facts
+      ios_facts:
+        gather_subset:
+          - "!config"
+#      register: 
+
+#    - name: Debug 
+#      debug: var=ansible_net_interfaces
+
+    - name: Copy facts to files
+      copy:
+         content: "{{ ansible_net_interfaces | to_nice_json }}"
+         dest: "all_facts/{{ ansible_net_hostname }}_intf_facts.json"

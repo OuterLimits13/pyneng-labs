@@ -1,3 +1,4 @@
+#!/usr/bin/python3.6
 # -*- coding: utf-8 -*-
 '''
 Задание 22.2
@@ -17,3 +18,31 @@
 Проверить работу функции на примере обработки
 команды sh ip int br (шаблон и вывод есть в разделе).
 '''
+
+
+import sys
+sys.path.append('/home/usr/new/pyneng/lib/python3.6/site-packages')
+
+import textfsm
+from task_22_1 import parse_output
+import csv
+
+
+def list_to_csv(data_list, csv_filename):
+	with open(csv_filename, 'w') as f:
+		writer = csv.writer(f, quoting=csv.QUOTE_NONNUMERIC)
+		writer.writerows(data_list)
+		
+	return
+
+
+
+if __name__ == "__main__":
+	res = parse_output('templates/sh_ip_int_br.template','output/sh_ip_int_br.txt')
+	list_to_csv(res, 'task_22_2_res.csv')
+
+	
+
+
+
+
